@@ -37,7 +37,7 @@
       card.addEventListener('click', function() {
         //CHAMAR FUNÇÃO MOSTRA POKEMON PASSANDO COMO
         // PARAMETRO O LINK OBTIDO PARA CADA POKEMON
-        mostraPokemon(pokemon);  
+        mostraPokemon(pokemon.url);  
       });
       col.appendChild(card);
       //cria a div com a classe card-body que é onde
