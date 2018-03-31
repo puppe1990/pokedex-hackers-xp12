@@ -6,6 +6,8 @@ function mostraPokemon(url) {
   //     OS COMPONENTES HTML NO MODAL
   //  4. ABRIR MODAL (.modal) COM JAVASCRIPT
   //     (http://getbootstrap.com/docs/4.0/components/modal/#via-javascript)
+  console.log(url);
+  $('#modal').modal('show');
 }
 
 
